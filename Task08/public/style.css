@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #222; background: #f6f8fa; line-height: 1.45; }
+.site-header { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; padding: 0.8rem 1.5rem; background: #5b7fa6; }
+.site-header a { color: #fff; text-decoration: none; }
+.site-header a:hover { text-decoration: underline; }
+.site-title { font-weight: bold; font-size: 1.2rem; }
+.site-header nav { display: flex; flex-wrap: wrap; gap: 1.2rem; }
+main { max-width: 960px; margin: 1.5rem auto; padding: 0 1rem 2rem; }
+h1 { font-size: 1.6rem; margin-top: 0; }
+h2 { font-size: 1.25rem; margin-top: 2rem; }
+form { background: #fff; border: 1px solid #d5dde5; border-radius: 6px; padding: 1rem 1.2rem; margin: 1rem 0; }
+.field { margin-bottom: 0.9rem; }
+.field label, .field .label { display: block; font-weight: bold; margin-bottom: 0.25rem; }
+.hint { color: #667788; font-size: 0.9rem; }
+input[type=text], input[type=tel], input[type=date], input[type=time], input[type=number], select {
+    width: 100%; max-width: 420px; padding: 0.4rem 0.5rem; font-size: 1rem; border: 1px solid #b8c2cc; border-radius: 4px; background: #fff;
+}
+.checkbox { display: block; font-weight: normal; margin: 0.2rem 0; }
+.checkbox input { margin-right: 0.4rem; }
+button { padding: 0.5rem 1.2rem; font-size: 1rem; border: 0; border-radius: 4px; background: #5b7fa6; color: #fff; cursor: pointer; }
+button:hover { background: #46688d; }
+.message { padding: 0.7rem 1rem; border-radius: 4px; margin: 1rem 0; }
+.message ul { margin: 0; padding-left: 1.2rem; }
+.message-error { background: #fde8e8; color: #8a1f1f; }
+.message-success { background: #e3f4e6; color: #1d5c2a; }
+.message-warning { background: #fff4d6; color: #7a5a00; }
+table { border-collapse: collapse; width: 100%; background: #fff; }
+th, td { border: 1px solid #b8c2cc; padding: 0.4rem 0.7rem; text-align: left; vertical-align: top; }
+th { background: #5b7fa6; color: #fff; }
+tbody tr:nth-child(even) { background: #f3f6f9; }
+.cards { list-style: none; padding: 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.cards li { background: #fff; border: 1px solid #d5dde5; border-radius: 6px; padding: 1rem 1.2rem; }
+.cards a { font-weight: bold; font-size: 1.1rem; color: #2f5d8f; }
+.cards p { margin: 0.4rem 0 0; color: #556677; }
+.muted { color: #667788; }
